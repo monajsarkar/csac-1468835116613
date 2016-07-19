@@ -248,11 +248,12 @@ hr {
 
 .gn-menu-wrapper {
 		position: fixed;
-		top: 60px;
+		top:17%;
 		bottom: 0;
 		left: 0;
 		overflow: hidden;
 		width: 60px;
+		height:302px;
 		border-top: 1px solid #c6d0da;
 		border-right: 1px solid #c6d0da;
 		background: white;
@@ -498,19 +499,26 @@ input.gn-search:focus {
 
 #intro{	
 		background:url(../img/bg.png) no-repeat right top;
-    height: 100%;
-    overflow: hidden;
-	padding: 160px 0 60px 0 ;
+	    padding: 160px 0 60px 0 ;
 }
 #service{	
-		background: #fbfbfb url(../img/bg3.png) no-repeat right top;
+		background: #fbfbfb url(../img/bg1.png) no-repeat right top;
+		padding: 160px 0 60px 0 ;
 }
 #works{	
-		background:url(../img/bg2.png) no-repeat right top;
+		background:url(../img/bg3.png) no-repeat right top;
+		padding: 160px 0 60px 0 ;
 }
 #contact{	
-		background: #fbfbfb url(../img/bg1.png) no-repeat right top;
+		background: #fbfbfb url(../img/bg4.png) no-repeat right top;
 }
+#case{	
+		background: #fbfbfb url(../img/bg5.png) no-repeat right top;
+		padding: 160px 0 60px 0 ;
+		
+}
+
+
 
 .intro .slogan {
 	padding:250px 0 60px;
@@ -975,6 +983,17 @@ h3,.h3,span{
 .pdleft{
 	padding-left: 20px;
 	}
+#intro{
+	padding: 110px 0 0 0;
+	}
+	
+.p115{
+	padding: 30px 0 0 20px;
+	}	
+.home-section{
+	padding: 30px 0 50px 0;
+	border-top: 1px solid #EB2325 !important;
+	}
 }
 .bdrnone{
 	border: none !important;
@@ -1045,4 +1064,7 @@ h3,.h3,span{
 	}
 .flleft{
 	float:left;
+	}
+.p0{
+	padding: 0;
 	}
